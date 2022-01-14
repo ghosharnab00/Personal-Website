@@ -69,3 +69,10 @@ display: block;
 font-size: smaller;
 color: rgb(119, 116, 116);
 }
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  body, .content {
+    width: 100%;
+  }
+}
